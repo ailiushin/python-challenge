@@ -17,9 +17,8 @@ with open(csvpath) as csvfile:
     # Skip the header
     next(csvreader)
     
-    # first_row = next(csvreader)
-    # profit_previous = first_row[1]
-    # # Go through each row and populate lists    
+    
+    # Go through each row and populate lists    
     for row in csvreader:
         
         # add total
